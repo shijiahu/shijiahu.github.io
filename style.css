@@ -25,7 +25,13 @@ header.startup {
   background-size: cover;
   height: 100%;
 }
-
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 header.startup hr {
   margin-top: 200px;
   margin-bottom: 30px; 
@@ -35,6 +41,34 @@ header.startup h1 {
   font-size: 2rem; 
 }
 
+/*header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url("land.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}*/
+
+header.masthead .intro-text .intro-lead-in {
+    font-size: 30px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
 .btn {
   font-weight: 700;
   text-transform: uppercase;
