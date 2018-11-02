@@ -94,6 +94,7 @@ header.masthead .intro-text .intro-heading {
 
 .rounded-circle {
     border-radius: 50%!important;
+    margin-bottom: 40px;
 }
 .btn {
   font-weight: 700;
